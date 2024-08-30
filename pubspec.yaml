@@ -1,0 +1,35 @@
+name: care_app
+description: "Application for CARE NGO"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  lottie: ^2.0.0
+
+  animated_text_kit: ^4.2.1
+
+  tbib_splash_screen: ^1.0.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - 'lib/assets/google_logo.png'
+    - 'lib/assets/IMG_4555.PNG'
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: lib/fonts/Poppins-Regular.ttf
